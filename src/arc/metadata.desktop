@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=Arc
+Description=Arc
+Type=sddm-theme
+Author=Rokin
+Copyright=(c) 2019, Rokin
+Screenshot=preview.jpg
+License=GPL
+Version=0.1
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=arc
+Theme-API=2.0
+Website=https://github.com/Rokin05/SDDM-Themes
+

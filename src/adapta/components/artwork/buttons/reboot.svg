@@ -1,0 +1,10 @@
+<svg id="svg1685" height="64" style="" viewBox="0 0 17 17" width="64" xmlns="http://www.w3.org/2000/svg">
+    <path id="rect117" d="m.04 0h16.96v16.96h-16.96z" style="opacity:0;stroke-width:.53"/>
+    <g id="g129" style="" transform="matrix(.53 0 0 .53 .04 0)">
+        <circle id="circle119" cx="16" cy="16" r="14" style="fill:#eac046"/>
+        <path id="path121" d="m14 5v3.2c-4.1 1-7 4.8-7 8.8 0 5 4 9 9 9s8-3 9-8c0 0 0-1-1-1s-1 1-1 1c-1 3-4 6-7 6-4 0-7-3-7-7 0-3 2-6 5-7v3l4-4z" style="opacity:.2"/>
+        <path id="path123" d="m14 4v3.2c-4.1 1-7 4.8-7 8.8 0 5 4 9 9 9s8-3 9-8c0 0 0-1-1-1s-1 1-1 1c-1 3-4 6-7 6-4 0-7-3-7-7 0-3 2-6 5-6.7v2.7l4-4z" style="fill:#ffffff"/>
+        <path id="path125" d="m16 2a14 14 0 0 0 -14 14 14 14 0 0 0 0 1 14 14 0 0 1 14-14 14 14 0 0 1 14 13 14 14 0 0 0 -14-14z" style="opacity:.2;fill:#d3dae3"/>
+        <path id="path127" d="m30 16a14 14 0 0 1 -14 14 14 14 0 0 1 -14-13 14 14 0 0 0 14 14 14 14 0 0 0 14-14 14 14 0 0 0 0-1z" style="opacity:.1"/>
+    </g>
+</svg>
