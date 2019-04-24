@@ -84,14 +84,14 @@ In the `[Theme]` section set `Current=sober`. For a more detailed description pl
 
 #### Themes availables :
 
-| Name          | Screenshots                                        | Git (path)                   | OpenDesktop (tar.gz)                               | Aur   |
-|:--------------|:--------------------------------------------------:|:----------------------------:|:--------------------------------------------------:|:-----:|
-| Adapta        | [:framed_picture:](medias/screenshots/adapta)      | [:link:](../src/adapta)      | [:inbox_tray:](https://www.opendesktop.org/)       | :x:   |
-| Arc           | [:framed_picture:](medias/screenshots/arc)         | [:link:](../src/arc)         | [:inbox_tray:](https://www.opendesktop.org/)       | :x:   |
-| Goodnight     | [:framed_picture:](medias/screenshots/goodnight)   | [:link:](../src/goodnight)   | [:inbox_tray:](https://www.opendesktop.org/)       | :x:   |
-| Mount         | [:framed_picture:](medias/screenshots/mount)       | [:link:](../src/mount)       | [:inbox_tray:](https://www.opendesktop.org/)       | :x:   |
-| Sober         | [:framed_picture:](medias/screenshots/sober)       | [:link:](../src/sober)       | [:inbox_tray:](https://www.opendesktop.org/)       | :x:   |
-| Zune          | [:framed_picture:](medias/screenshots/zune)        | [:link:](../src/zune)        | [:inbox_tray:](https://www.opendesktop.org/)       | :x:   |
+| Name          | Screenshots                                        | Git (path)                   | OpenDesktop (tar.gz)                                         | Aur   |
+|:--------------|:--------------------------------------------------:|:----------------------------:|:------------------------------------------------------------:|:-----:|
+| Adapta        | [:framed_picture:](medias/screenshots/adapta)      | [:link:](../src/adapta)      | [:inbox_tray:](https://www.opendesktop.org/p/1302087/)       | :x:   |
+| Arc           | [:framed_picture:](medias/screenshots/arc)         | [:link:](../src/arc)         | [:inbox_tray:](https://www.opendesktop.org/p/1302089/)       | :x:   |
+| Goodnight     | [:framed_picture:](medias/screenshots/goodnight)   | [:link:](../src/goodnight)   | [:inbox_tray:](https://www.opendesktop.org/p/1302091/)       | :x:   |
+| Mount         | [:framed_picture:](medias/screenshots/mount)       | [:link:](../src/mount)       | [:inbox_tray:](https://www.opendesktop.org/p/1302092/)       | :x:   |
+| Sober         | [:framed_picture:](medias/screenshots/sober)       | [:link:](../src/sober)       | [:inbox_tray:](https://www.opendesktop.org/p/1302093/)       | :x:   |
+| Zune          | [:framed_picture:](medias/screenshots/zune)        | [:link:](../src/zune)        | [:inbox_tray:](https://www.opendesktop.org/p/1302094/)       | :x:   |
 
 <br>
 
