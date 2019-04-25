@@ -1,4 +1,3 @@
 [General]
-type=color
 color=#191225
-background="components/artwork/background.png"
+type=color

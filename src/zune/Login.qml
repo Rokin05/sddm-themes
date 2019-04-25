@@ -129,6 +129,8 @@ GridLayout {
                 opacity: visible ? 1 : 0
                 Behavior on opacity { NumberAnimation { duration: 500 } }
             onAccepted: passwordBox.forceActiveFocus()
+            // See : https://github.com/sddm/sddm/issues/202 (keyboard.layouts)
+            Keys.onPressed: keyboardButton.displayText = keyboard.layouts[keyboard.currentLayout].longName;
         }
 
         TextBox {
@@ -145,6 +147,7 @@ GridLayout {
                 opacity: visible ? 1 : 0
                 Behavior on opacity { NumberAnimation { duration: 500 } }
             onAccepted: grid.login()
+            Keys.onPressed: keyboardButton.displayText = keyboard.layouts[keyboard.currentLayout].longName;
         }
 
         LoginButton {

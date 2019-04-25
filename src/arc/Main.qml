@@ -226,6 +226,9 @@ Skel {
     // ==============
     // Misc
     // ==============
+    
+    // See : https://github.com/sddm/sddm/issues/202 (keyboard.layouts)
+    Keys.onPressed: keyboardButton.displayText = keyboard.layouts[keyboard.currentLayout].longName;
 
     Component.onCompleted: {
         getPosition(clock, root.conf("position.clock"));

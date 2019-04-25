@@ -1,4 +1,4 @@
-# SDDM-Themes
+# SDDM Themes
 ![Version](https://img.shields.io/badge/version-0.1-blue.svg?style=flat-square&logo=appveyor) ![Qt](https://img.shields.io/badge/Qt-5.7+-blue.svg?style=flat-square) ![GitHub repo size](https://img.shields.io/github/repo-size/Rokin05/SDDM-Themes.svg?style=flat-square) ![GitHub](https://img.shields.io/github/license/Rokin05/SDDM-Themes.svg?style=flat-square)
 
 Dynamics and highly customizable themes build from scratch for [SDDM display manager](https://github.com/sddm/sddm) with [QtQuick 2](https://doc.qt.io/qt-5/qtquick-index.html) (Qt 5.7 >=).<br>
@@ -169,6 +169,11 @@ icon format : USERNAME.face.icon
 <br>
 
 #### ● My Keyboard layouts are not visibles in the selectbox
+There is a "cosmetic" bug with sddm who use xcb API to list the keymaps :<br>
+On the initial loading, the keyboard layout dropdown menu shows "English (US)" only (your true keyboard layout is selected but this may be visual wrong).
+As soon as any key is pressed then XCB_XKB_NEW_KEYBOARD_NOTIFY event will be issued and then it will return correct layout.<br>
+This "bug" is Independent of the theme but for better "deal with that", i have update the theme code and the selected keyboard layout real name is now automatic returned after a first key is pressed which was not the case before.
+
 - [SDDM Issue - Keyboard layout not detected](https://github.com/sddm/sddm/issues/202)
 - [Arch wiki - Xorg Keyboard configuration](https://wiki.archlinux.org/index.php/Xorg/Keyboard_configuration)
 
