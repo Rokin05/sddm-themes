@@ -39,7 +39,7 @@ TextField {
     font.bold: conf("text.bold")
     Component.onCompleted: if (conf("text.font") != "") font.family = conf("text.font")
 
-    passwordMaskDelay: 500
+    passwordMaskDelay: 10
     passwordCharacter: "\u25cf" //●
 
     Row {
