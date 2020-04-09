@@ -25,6 +25,7 @@ Item {
     // (https://doc.qt.io/qt-5/qml-qtquick-fontloader.html)
 
     FontLoader { id: pacifico; source: "Pacifico-Regular.ttf" }
+    FontLoader { id: victorMono; source: "VictorMono-Regular.ttf" }
 
 
 
