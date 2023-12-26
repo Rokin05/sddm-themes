@@ -21,8 +21,10 @@ import "style" as Style
 
 Style.Background { 
     id: control
+
+    readonly property bool showOnStart: conf("onstart")
     property real timer: conf("timer.secondes")
-    property real chrono: 0
+    property real chrono: showOnStart ? timer : 0
 
     readonly property bool isRunning: chrono >= timer
     readonly property bool neverVisible: config['enable.primary_screen_only'] == "true" && !primaryScreen
